@@ -12,6 +12,7 @@ __pycache__/
 *$py.class
 
 # Distribution / packaging
+.DS_Store
 .Python
 env/
 build/
