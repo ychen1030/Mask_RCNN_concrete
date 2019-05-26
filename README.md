@@ -2,6 +2,9 @@
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
+In this project, Matterport’s implementation of Mask R-CNN [Abdulla](https://github.com/matterport/Mask_RCNN) were modified for concrete instance segmentation. Most of the modifications are in [train_concrete.ipynb](https://github.com/ychen1030/Mask_RCNN_concrete/blob/master/train_concrete.ipynb).
+
+
 ## Requirements
 Python 3.4, TensorFlow 1.3, Keras 2.0.8 and other common packages listed in `requirements.txt`.
 
